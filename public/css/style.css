@@ -1,0 +1,156 @@
+@import "pages/home.css";
+@import "pages/battle.css";
+@import "pages/game.css";
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%;
+  width: 100% ;
+  background: #fbfbfb;
+}
+
+.ft-15{
+  font-size: 15px;
+}
+
+.ft-10{
+  font-size: 10px;
+}
+
+.ft-17{
+  font-size: 17px;
+}
+
+.ft-18{
+  font-size: 18px;
+}
+
+.bg-home-color{
+  background: #2b2b2b !important;
+}
+
+.bg-home-color:hover{
+  color: white !important;
+}
+
+.cl-home-color{
+  color: white !important;
+}
+
+.text-shadow{
+  text-shadow: 1px 1px 3px black;
+}
+
+.home-note{
+  background: #c77d48c7 !important;
+  color: white;
+  width: 100%;
+}
+
+.sign-btn{
+  background: white;
+  color: black !important;
+  box-shadow: -3px 3px 0px 2px #c77d48;
+  border-radius: 0;
+  //#bcbcbc
+}
+
+.btn-house{
+  background-color: #212121;
+  color: white !important;
+}
+
+.sign-btn:hover{
+  box-shadow: 0px 0px 0px 0px #bcbcbc !important;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.dropdown-menu{
+  border-radius: 0;
+  box-shadow: -5px 5px 6px -7px black;
+}
+
+.footer-nav-link{
+  border-right: 1px solid #e8e8e8;
+}
+
+.footer-nav-link:last-child{
+  border-right: unset;
+}
+
+.footer-nav-link a{
+  position: relative;
+  top:0;
+}
+
+.footer-nav-link:hover{
+  background: #fbfbfb;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+}
+
+.footer-nav-link:hover a{
+  color: black;
+  position: relative;
+  top: -5px;
+  transition: all .7s;
+  -webkit-transition: all .7s;
+}
+
+.home-btn{
+  background: #212121;
+  color:white;
+  border-radius: 0;
+  font-weight: 600;
+  border:2px solid transparent;
+}
+
+.home-btn:hover{
+  border: 2px solid #212121;
+  background: #fbfbfb;
+  color: #212121;
+  transition: all .7s;
+  -webkit-transition: all .5s;
+}
+
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; }
+  .battleCard{
+    width: 100% !important;
+  }
+}
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #212121; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #212121; }
+  .battleCard{
+    width: 100% !important;
+  }
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+

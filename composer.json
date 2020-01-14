@@ -1,0 +1,15 @@
+{
+  "autoload":{
+    "psr-4": {
+      "MVC\\": "core"
+    },
+    "phpmailer/phpmailer": "~6.0"
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.0",
+    "ext-curl": "*",
+    "ext-dom": "*",
+    "ext-mcrypt": "*"
+  }
+
+}

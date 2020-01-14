@@ -1,0 +1,79 @@
+.layer-form-wrap{
+    position: relative;
+    top: -100px;
+}
+
+.ownCard{
+    border-radius: 0;
+    padding: 1em;
+    color: grey;
+}
+
+.ownCard  label{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:grey;
+}
+
+.battle-select{
+    padding: .5em;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+.ownCard input.form-control {
+    border-radius: 0;
+}
+
+.ownCard .card-body{
+    padding:0;
+}
+
+.ownCard .form-group{
+    padding: 1rem;
+}
+
+.ownCard .input-group-text {
+    border-radius: 0;
+    background: white;
+    color: #212121;
+}
+
+.battle-wrap{
+    padding: 1em;
+    background: white;
+}
+
+.battle-icon {
+    font-size: 50px;
+}
+
+.battle-wrap:hover{
+    background: #808080;
+    color:white;
+}
+
+.battleCard{
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.btn-battle {
+    padding: .5em 1em;
+    background: #787878;
+    color: white;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.btn-battle:hover{
+    background: #2b2b2b;
+    color: white;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
